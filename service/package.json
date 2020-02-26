@@ -1,0 +1,30 @@
+{
+  "name": "myride",
+  "version": "1.0.0",
+  "description": "MyRide uService and Admin webserer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./service.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TallEric2016/MyRide-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TallEric2016/MyRide-backend/issues"
+  },
+  "homepage": "https://github.com/TallEric2016/MyRide-backend#readme",
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "aws-sdk": "^2.478.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "swagger-jsdoc": "^3.3.0",
+    "swagger-ui-express": "^4.0.7"
+  }
+}

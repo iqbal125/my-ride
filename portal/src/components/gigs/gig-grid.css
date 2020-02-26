@@ -1,0 +1,22 @@
+.gig-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto 50px 40px;
+  grid-template-rows: auto;
+}
+
+.gig-grid > div {
+  padding: 5px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.gig-grid > header {
+  padding: 5px;
+  margin: 0;
+  background: rgb(250, 235, 235);
+  text-align: left;
+  z-index: -1;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
